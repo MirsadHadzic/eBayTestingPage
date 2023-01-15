@@ -59,7 +59,7 @@ class SeleniumProject {
 	// 2nd test, create a business account
 
 	
-	  /*@Test 
+	  @Test 
 	  void createTest() throws InterruptedException {
 	  
 	  webDriver.get(baseUrl); webDriver.manage().window().maximize();
@@ -103,13 +103,13 @@ class SeleniumProject {
 	  Thread.sleep(5000);
 	  
 	  
-	  }*/
+	  }
 	 
 
 	// 3d test, create a personal account
 
 	
-	  /*@Test
+	  @Test
 	  
 	  void createPersonalAccountTest() throws InterruptedException {
 	  webDriver.get(baseUrl); webDriver.manage().window().maximize();
@@ -135,13 +135,13 @@ class SeleniumProject {
 	  )).click(); Thread.sleep(6000);
 	  
 	  
-	  }*/
+	  }
 	 
 
 	// 4th test, click on the Help & Contact link/button
 
 	
-	  /*@Test 
+	  @Test 
 	  void helpContactTest() throws InterruptedException{
 	  webDriver.get(baseUrl); webDriver.manage().window().maximize();
 	  Thread.sleep(1000);
@@ -170,12 +170,12 @@ class SeleniumProject {
 	  WebElement goToSignInPage = webDriver.findElement(By.xpath(
 	  "/html/body/div[6]/div[2]/div[1]/div[4]/div[2]/div/div[2]/a"));
 	  goToSignInPage.click(); Thread.sleep(2000); }
-	 */
+	 
 
 	// 5th test sign in
 
 	
-	  /*@Test
+	  @Test
 	  
 	  void signInTest() throws InterruptedException { webDriver.get(baseUrl);
 	  webDriver.manage().window().maximize(); Thread.sleep(1000);
@@ -226,13 +226,13 @@ class SeleniumProject {
 	  //"/html/body/div[4]/main/div[1]/form[1]/div[5]/label[1]/span/input")).click();
 	  Thread.sleep(2000);
 	 
-	  }*/
+	  }
 	 
 
 	// 6th test, test title
 
 	
-	  /*@Test
+	  @Test
 	  
 	  void testTitle() throws InterruptedException { webDriver.get(baseUrl);
 	  webDriver.manage().window().maximize(); Thread.sleep(1000);
@@ -250,13 +250,13 @@ class SeleniumProject {
 	  
 	  //Sign in or Register | eBay 
 	  
-	  }*/
+	  }
 	 
 
 	// 7th test, search test
 
 	
-	  /*@Test
+	  @Test
 	  
 	  void searchTest() throws InterruptedException { webDriver.get(baseUrl);
 	  webDriver.manage().window().maximize(); Thread.sleep(1000);
@@ -277,13 +277,13 @@ class SeleniumProject {
 	  webDriver.getPageSource(); if (pageSource.contains("xiaomi")) {
 	  System.out.println("Search results are correct"); } else {
 	  System.out.println("Search results are incorrect"); } }
-	 */
+	 
 
 	// 8th test, test the purchase option, testing the purchase option to see
 	// if the "add to cart" and "go to checkout" options are working properly
 
 	
-	 /* @Test 
+	  @Test 
 	  void testPurchase() throws InterruptedException {
 	  webDriver.get(baseUrl); 
 	  webDriver.manage().window().maximize();
@@ -394,11 +394,11 @@ class SeleniumProject {
 	  // go back to the original tab via "handle1"
 	  
 	  webDriver.switchTo().window(handle1); Thread.sleep(10000); }
-	 */
+	 
 
 	// 9th test, verify that "Contact Seller" feature is working correctly
 
-	/*
+	
 	  @Test void testContactSeller() throws InterruptedException {
 	  webDriver.get(baseUrl); webDriver.manage().window().maximize();
 	  Thread.sleep(1000);
@@ -443,7 +443,7 @@ class SeleniumProject {
 	  signInInput.sendKeys("ocu366m8"); Thread.sleep(1000);
 	  
 	  webDriver.findElement(By.id("sgnBt")).click(); Thread.sleep(20000);
-	  */
+	  
 	  // Ovaj dio je ustvari forma koja izleti kada hoces nesto kupiti prvi put na EBAY-u, pa upises svoje podatke, 
 	  // dolazi samo jednom pa sam je zato izkomentarisao
 	  
@@ -471,7 +471,7 @@ class SeleniumProject {
 	  Thread.sleep(10000);
 	 */
 	// ovdje izbrisati komentare
-	/*
+	
 	  webDriver.findElement(By.xpath(
 	  "/html/body/div[4]/div[1]/div[2]/form/div/div/a[2]")).click();
 	  Thread.sleep(4000);
@@ -503,12 +503,12 @@ class SeleniumProject {
 	  // go back to the original tab via "handle1"
 	  
 	  webDriver.switchTo().window(handle1); Thread.sleep(10000); }
-	 */
+	 
 
 	// 10th test, discussion board
 
 	
-	 /*@Test void discussionBoardTest() throws InterruptedException {
+	 @Test void discussionBoardTest() throws InterruptedException {
 	  webDriver.get(baseUrl); webDriver.manage().window().maximize();
 	  Thread.sleep(1000);
 	  
@@ -563,12 +563,12 @@ class SeleniumProject {
 	  if (pageSource.contains("Cekalusa br. 39")) {
 	  System.out.println("Test passed: comment was sent"); } else {
 	  System.out.println("Test failed: comment was not sent"); } }
-	 */
+	 
 
 	// 11th test, verify that the "Buy it now" feature is working correctly:
 
 	
-	  /*@Test
+	  @Test
 	  
 	  void buyItNowTest() throws InterruptedException { webDriver.get(baseUrl);
 	  webDriver.manage().window().maximize(); Thread.sleep(5000);
@@ -617,11 +617,11 @@ class SeleniumProject {
 	  if (buttonText.equals("Confirm and pay")) {
 	  System.out.println("Test passed: purchase page is displayed"); } else {
 	  System.out.println("Test failed: purchase page is not displayed"); } }
-	 */
+	 
 
 	// 12th test, "Add to wish list"
 	
-	 /* @Test
+	  @Test
 	  
 	  void testAdd() throws InterruptedException {
 	  
@@ -698,12 +698,12 @@ class SeleniumProject {
 	  (linkText.equals("Watch list")) {
 	  System.out.println("Test passed: item was added to the wish list"); } else {
 	  System.out.println("Test failed: item was not added to the wish list"); } }
-	 */
+	 
 
 	// 13th test, Verify that the "Remove" feature is working correctly:
 
 	
-	  /*@Test
+	  @Test
 	  
 	  void testRemove() throws InterruptedException {
 	  
@@ -737,13 +737,13 @@ class SeleniumProject {
 	  System.out.println("Test passed: item was removed."); } else {
 	  System.out.println("Test failed: item was not removed."); }
 	  
-	  }*/
+	  }
 	 
 
 	// 14th test, check if the messages page is displayed correctly
 
 	
-	  /*@Test void testMessagesDisplaying() throws InterruptedException {
+	  @Test void testMessagesDisplaying() throws InterruptedException {
 	  
 	  webDriver.get(baseUrl); webDriver.manage().window().maximize();
 	  Thread.sleep(5000);
@@ -790,11 +790,11 @@ class SeleniumProject {
 	  System.out.println("Test passed: Messages page was displayed"); } else {
 	  System.out.println("Test failed: Messages page was not displayed"); } }
 	 
-	 */
+	 
 
 	// 15th test, deleting messages
 
-	/*@Test
+	@Test
 	void testMessagesDisplaying2() throws InterruptedException {
 
 		webDriver.get(baseUrl);
@@ -855,5 +855,5 @@ class SeleniumProject {
 			System.out.println("Test failed: message was not deleted");
 		}
 
-	}*/
+	}
 }
