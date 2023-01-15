@@ -1,9 +1,9 @@
-# SOFTWARE VERIFICATION, VALIDATION AND TESTING
+# eBay Page Testing
+
+SOFTWARE VERIFICATION, VALIDATION AND TESTING
  
  
 TESTING DOCUMENTATION 
- 
-**eBay Page Testing** 
  
  
 Prepared by: Faris Kovac Iman Lukomirak Mirsad Hadzic 
