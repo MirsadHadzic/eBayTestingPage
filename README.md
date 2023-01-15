@@ -3,7 +3,7 @@
  
 TESTING DOCUMENTATION 
  
-eBay Page Testing 
+**eBay Page Testing** 
  
  
 Prepared by: Faris Kovac Iman Lukomirak Mirsad Hadzic 
@@ -18,6 +18,6 @@ Proposed to:  Samed Jukić, Assist. Prof. Dr. Aldin Kovačević, Teaching Assist
  
  
  
-12.01.2023. 
+15.01.2023. 
  
  
