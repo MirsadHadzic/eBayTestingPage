@@ -13,5 +13,5 @@ Additionally, we have implemented an additional test utilizing advanced Selenium
 This repository comprises of 15 tests, which have been thoroughly examined and evaluated.
  
 Colleagues that worked with me are:
-- Iman Lukomirak
+- Iman Lukomirak (https://github.com/imanll)
 - Faris Kovac (https://github.com/Faris-Kovac)
