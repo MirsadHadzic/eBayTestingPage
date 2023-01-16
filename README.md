@@ -8,5 +8,10 @@
  and that the user experience is optimal.
 
 
+We have created a .pdf document which details the actions and processes undertaken during the project (README_SVVT.pdf).
+Additionally, we have implemented an additional test utilizing advanced Selenium features in a separate repository called eBayAdvancedTesting. 
+This repository comprises of 15 tests, which have been thoroughly examined and evaluated.
  
- 
+Colleagues that worked with me are:
+- Iman Lukomirak
+- Faris Kovac (https://github.com/Faris-Kovac)
